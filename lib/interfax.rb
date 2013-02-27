@@ -1,9 +1,6 @@
 require 'json'
 
-$:.unshift(File.dirname(__FILE__)) unless
-  $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
-
-require 'interfax/api'
-require 'interfax/base'
-require 'interfax/fax'
-require 'interfax/inbound'
+require File.dirname(__FILE__) + '/interfax/api'
+require File.dirname(__FILE__) + '/interfax/base'
+require File.dirname(__FILE__) + '/interfax/fax'
+require File.dirname(__FILE__) + '/interfax/inbound'
