@@ -37,7 +37,7 @@ module Interfax
         RestClient.delete url, options
       end
 
-      soap_client = Savon.client(Interfax::Api::SOAP_WSDL)
+      soap_client = Savon.client(wsdl: Interfax::Api::SOAP_WSDL)
     end
   end
 end
