@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://www.github.com/pcragone/interfax'
   s.add_dependency "rest-client", '1.6.7'
-  s.add_dependency "json", "1.7.4"
+  s.add_dependency "json"
 end
